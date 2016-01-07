@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">idChampDemo</string>
+    <string name="cardInputHint">Raw card id</string>
+    <string name="clearButtonText">Clear</string>
+</resources>

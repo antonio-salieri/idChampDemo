@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/main">
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="false"
+            android:id="@+id/cardNumbers" android:choiceMode="none"
+            android:layout_gravity="top" android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="false" android:fastScrollAlwaysVisible="false"
+    />
+    <Button android:layout_width="fill_parent" android:layout_height="50dp"
+            android:text="@string/clearButtonText"
+            android:id="@+id/clearList" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:inputType="numberPassword"
+            android:hint="@string/cardInputHint"
+            android:layout_below="@id/clearList"
+            android:id="@+id/cardInput"/>
+</RelativeLayout>
+
