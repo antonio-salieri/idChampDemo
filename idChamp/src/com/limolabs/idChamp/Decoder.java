@@ -1,4 +1,4 @@
-package com.limolabs.hid1000;
+package com.limolabs.idChamp;
 
 /**
  * Created by lazar on 1/6/16.

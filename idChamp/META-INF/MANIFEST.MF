@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Name: limolabs/idChamp
+Specification-Title: iClass card number decoder for idChamp
+Specification-Version: 0.0.2
+Specification-Vendor: Limolabs, Inc.
+Implementation-Title: com.limolabs.idChamp
+Implementation-Vendor: Limolabs, Inc.

@@ -1,14 +1,13 @@
 package com.example.idChampDemo;
 
-import android.view.inputmethod.EditorInfo;
 import android.widget.*;
 import android.widget.TextView.OnEditorActionListener;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
-import com.limolabs.hid1000.Card;
-import com.limolabs.hid1000.Decoder;
+import com.limolabs.idChamp.Card;
+import com.limolabs.idChamp.Decoder;
 
 import java.util.ArrayList;
 

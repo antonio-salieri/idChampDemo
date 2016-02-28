@@ -2,7 +2,7 @@
  * Created by lazar on 1/7/16.
  */
 
-import com.limolabs.hid1000.Decoder;
+import com.limolabs.idChamp.Decoder;
 import junit.framework.TestCase;
 
 

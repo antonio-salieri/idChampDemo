@@ -1,4 +1,4 @@
-package com.limolabs.hid1000;
+package com.limolabs.idChamp;
 
 /**
  * Created by lazar on 1/7/16.
@@ -18,5 +18,9 @@ public class Card {
 
     public int getFacilityNumber() {
         return facilityNumber;
+    }
+
+    public String toString() {
+        return getFacilityNumber() + " " + getCardNumber();
     }
 }

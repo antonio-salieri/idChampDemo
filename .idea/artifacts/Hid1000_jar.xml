@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="Hid1000:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Hid1000_jar</output-path>
-    <root id="archive" name="Hid1000.jar">
-      <element id="module-output" name="Hid1000" />
-    </root>
-  </artifact>
-</component>
