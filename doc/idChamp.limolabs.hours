@@ -1,0 +1,31 @@
+start		stop		total
+
+# Exploring reader capabilities
+22:10		00:50		2:40    30.12.2015
+
+# Trying to put reader into SPP mode
+11:30		12:30		1:00		03.01.2016
+15:20		16:10		0:50		03.01.2016
+17:45		18:45		1:00		03.01.2016	# SPP Worked after this
+
+# Configuring reader to read HID Corporate 1000 card id
+16:30		17:40		1:10		04.01.2016
+19:00		19:40		0:40		04.01.2016
+18:00		18:50		0:50		05.01.2016
+20:20		21:50		1:30		05.01.2016	# Configured for HID Corp1000 format + found algorithm for decoding HID Corp 1000 card id
+
+# Making Android app
+21:25   22:25   1:00    06.01.2016
+~~ Creating test (no logging) ~~
+23:00   23:30   0:30    06.01.2016  # Finished decoding lib
+23:55   00:55   1:00    07.01.2016  # Created demo app
+10:20   11:20   1:00    07.01.2016  # Testing and debugging app
+# Done 1!       ~14:00
+
+# Replacing RFID reader in existing Android App
+20:45   22:20   1:35    13.01.2016  # Setup project (failing to load all deps from Gradle config. 
+                                                      Android Support API problem, forces use android support r23 )
+# Adding idChamp support
+20:45   23:15   2:30    16.01.2016  # Added parsing data from idChamp (keyboard HID interface)
+10:30   11:30   1:00    17.01.2016  # Testing and fixing app
+# Done 2!       ~5:00
