@@ -1,0 +1,1113 @@
+/*
+Theme Name: Brivo Theme
+Theme URI: http://brivo.com
+Author: Bi Yoo
+Author URI: biyootiful.com
+Version: 0.1.1
+*/
+
+.heading-font {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.body-font {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.alt-font {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.mainheader {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-weight:100;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -ms-overflow-style: none;
+  -moz-overflow-style: none;
+  -o-overflow-style: none;
+  -webkit-overflow-style: none;
+}
+
+.brivo-main-body p{ 
+    font-size: 14pt;
+    line-height: 1.7em;
+    font-weight: 300;
+    }
+
+/*
+# Typhography
+*/
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+a:hover {
+    color: #739dd2;
+    text-decoration:none;
+}
+
+a:active {
+    text-decoration:none;
+}
+
+a:focus {
+    text-decoration:none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+h1{font-size: 15pt;}
+h2 {font-size: 14pt;}
+
+.btn-primary:hover {
+    background-color:#739dd2;
+    border-color:#fbfbfb;
+}
+.btn-primary:focus {
+    background-color:#005198;
+}
+.btn-primary.active:hover{
+    background-color:#86a6cf;
+}
+.btn-primary.active:focus{
+    background-color:#005198;
+}
+.btn-primary.active{
+    background-color:#86a6cf;
+}
+
+/* //////////////////////////////////////
+# Header
+///////////////////////////////////// */
+.navbar-nav > li > a {
+    line-height:0px;
+}
+
+.admin-bar .navbar-fixed-top {
+    top: 25px;
+    border: 1px solid #eee; 
+} 
+.navbar-default {
+  background-color: white;
+  border-color: rgba(34, 34, 34, 0.05);
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.navbar-default .navbar-header .navbar-brand {
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #739DD2;
+  height: 38px;
+  width: 138px;
+  background-image: url(https://xtranetbrivo.staging.wpengine.com/wp-content/uploads/2016/09/Brivo-logo.svg);
+  margin-right: 31px;
+  background-position: 10px;
+  background-size: contain;
+  background-repeat:no-repeat;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #739DD2;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  font-size: 12px;
+  color: #739DD2;
+  padding: 8px 10px;
+  border-color:#fff;
+  z-index: 1000000;
+}
+.navbar-default .nav > li > a {
+  text-transform: uppercase;
+  color: #726F74;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  padding:18px 20px 30px;
+}
+.navbar-default .nav > li > a{padding-left:20px;}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #739DD2;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #739DD2 !important;
+  background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+
+.sub-menu{position:absolute;display:none;background:#fff;min-width: 150px;
+    padding: 0;margin: -8px 0 0;list-style: none;box-shadow:0 6px 12px rgba(0,0,0,.175);}
+.sub-menu li{list-style:none inside none; font-size:15px; font-weight:400;letter-spacing: .5px;}
+.sub-menu li a{display:block;padding:10px 10px 17px 17px ;color:#666 ;font-size:14px;}
+.sub-menu li a:hover{background:#97b3d6;color:#fff;text-decoration:none;}
+
+.nav > li:hover > .sub-menu{display:block;}
+
+.navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #fff; border-radius:1px;
+}
+
+@media only screen and (min-width : 767px) {
+    .login-mobile{display:none !important;}
+
+}
+
+@media only screen and (max-width : 767px) {
+
+    .login-wrapper {display:none;}
+    .menu-main-menu-container{
+        background-color: #fff;
+        padding: 10px;
+        width:55%;
+        height: auto;
+        border-color:#fff;
+        box-shadow:0 6px 12px rgba(0,0,0,.175);
+        position: absolute;
+        top: 28px;
+        right: 16px;
+
+}
+        .sub-menu {
+          position:relative;
+          display:inline-block;
+          padding: 0;
+          list-style:none;
+          box-shadow:none;
+          background-color:transparent;
+        }
+        .sub-menu li {
+            z-index: 100000000000;
+            padding: 0px 15px 7px 15px;
+        }
+        .sub-menu li a{display:block;padding:0px 20px;color: #666;font-size:13px;}
+        .menu-contact {display:none;}
+        .navbar-default .navbar-collapse{border-color:#fff;}
+        .navbar-collapse.in {
+             overflow-y: visible;
+            }
+            
+        .navbar-default .nav > li > a {
+    text-transform: uppercase;
+    color: #739dd2;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding: 15px 30px 25px;}
+    
+    .login-mobile .navbar-default .nav > li > a {
+        display:none;
+        }
+        
+    
+       
+}
+        
+/*nav above end here*/
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  /* background: url("../img/bg-pattern.png"), #739DD2;*/
+  /* fallback for old browsers */
+  /* background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #739DD2, #739DD2);*/
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: url("../img/bg-pattern.png"), linear-gradient(to left, #739DD2, #739DD2);*/
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+header .header-content {
+  text-align: center;
+  padding: 150px 0 50px;
+  position: relative;
+}
+header .header-content .header-content-inner {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+header .header-content .header-content-inner h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+header .header-content .header-content-inner .list-badges {
+  margin-bottom: 25px;
+}
+header .header-content .header-content-inner .list-badges img {
+  height: 50px;
+  margin-bottom: 25px;
+}
+header .device-container {
+  max-width: 300px;
+  margin: 0 auto 100px;
+}
+header .device-container .screen img {
+  border-radius: 3px;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    text-align: left;
+    padding: 10px;
+    height: 100vh;
+  }
+  header .header-content .header-content-inner {
+    max-width: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  header .device-container {
+    max-width: none;
+    max-height: calc(0vh);
+    margin: 100px auto 0;
+  }
+}
+@media (min-width: 992px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 23px;
+  }
+}
+
+.caret{opacity:0.2;}
+.main .section-hero-home{padding-top:60px !important;padding-bottom:0px !important;}
+.main .section-hero{padding-top:125px;padding-bottom:100px;}
+header.banner .login-wrapper a{color:#739dd2;font-size:12px;font-weight:400;}
+body>header.banner{border-bottom: 1px solid #f0f0f0;overflow-y:visible;
+-webkit-box-shadow: 0px 0px 12px 0px rgba(156,161,166,0.33);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(156,161,166,0.33);
+   box-shadow: 0px 0px 12px 0px rgba(156,161,166,0.33);}
+.login-wrapper{background:transparent;float:right;padding:5px 15px 30px;}
+.login-wrapper>a:hover{color:#666 !important;}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background:#fff !important;}
+.scrolled-top{height:70px !important;padding-top:18px;background:#fff !important;
+-moz-transition:0.3s all; -webkit-transition:0.3s all; transition:0.3s all;}
+.scrolled-down{height:70px; padding-top:18px;background:rgba(255,255,255,1) !important;border-bottom:1px solid #fafafa;
+-moz-transition:0.3s all; -webkit-transition:0.3s all; transition:0.3s all;}
+.scrolled-down .dropdown-menu{display:none !important;}
+
+/* //////////////////////////////////////
+# Page Title
+ ///////////////////////////////////// */
+ 
+ .page-title{text-align:center;}
+
+/* //////////////////////////////////////
+# Form Defaults
+ ///////////////////////////////////// */
+ 
+input,select,textarea{width:100%;padding:7.5px 10px;border:1px solid #ddd;}
+
+.content-results{min-height:400px;}
+
+#brivo-search{position:relative;}
+#brivo-search .brivo-input{padding:5px 0px 5px 10px;}
+#brivo-search .brivo-submit{
+    position: absolute;
+    right: 0;padding:5px;
+    z-index: 5;
+    -webkit-appearance: none;
+    width: 30px;
+    height: 25px;
+    text-indent: -9999px;}
+
+/* //////////////////////////////////////
+# Page-Specific
+ ///////////////////////////////////// */
+ 
+.integrations select{margin-bottom:20px;}
+.3rd-party-partners{border-right:1px solid #999;}
+.hidden-submit{display:none;}
+.integrations-loading{height:100px;background:url(img/spin-b.gif) center center no-repeat;}
+
+.loading-overlay{display:none;position:absolute;z-index:999;height:100%;width:100%;padding-top:100px;background:#fff url(img/spin-b.gif) center 50px no-repeat;}
+
+#faq .faq-search{margin-bottom:20px;}
+.faq-list{min-height:300px;position:relative;}
+.search-hide{display:none;}
+.question{height:60px;adding:15px;-webkit-transition: all 0.35s;-moz-transition: all 0.35s;transition: all 0.35s;margin:0 10px 15px;}
+
+.load-more{display:block;height:50px;line-height:50px;}
+.load-more-loading{background:url(img/spin-b.gif) center center no-repeat;transition:none;}
+.load-more-none{text-align:center;display: block;color:#666;}
+
+/* //////////////////////////////////////
+# Bootstrap Components
+ ///////////////////////////////////// */
+
+
+
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+button.close{position: relative;z-index: 999;color: #fff;opacity: 0.8;text-shadow:none;}
+button.close:hover{opacity: 1;color:#fff;}
+button.close:focus{outline:none;}
+
+.modal-header{border-bottom: 0;padding-bottom:0;}
+.modal-content{color:#fff;background:rgba(30,30,30,0.8);border-radius: 5px;padding:20px;box-shadow:none;}
+.modal-backdrop{background:#fff;}
+.modal-open .modal-backdrop{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/ami1pxhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+/*Team Page Modal*/
+
+button.close{top: 10px;right: 12px;}
+
+#team .modal-content{
+    color:#fff;
+    background:rgba(30,30,30,0.87);
+    padding:15px;
+    border-radius: 0;
+}
+#team .modal-content:before{
+content: '';
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  top: 0; right: 0; left: 0;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);}
+
+#team .modal-body{border:1px solid rgba(255,255,255,0.3);padding:45px;}
+.bio-img img{border:1px solid #ddd;}
+.bio-title{}
+.bio-text{margin-top:20px; line-height:1.7;}
+.bio-text p:last-child{margin-bottom:0;font-weight:200;}
+
+/* //////////////////////////////////////
+# Default Content
+ ///////////////////////////////////// */
+
+section {
+  padding: 100px 0;
+}
+section h2 {
+  font-size: 50px;
+}
+section.download {
+  padding: 150px 0;
+  position: relative;
+}
+section.download h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+section.download .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+section.download .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+section.download .badges .badge-link img {
+  height: 60px;
+}
+@media (min-width: 768px) {
+  section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  section.download h2 {
+    font-size: 70px;
+  }
+}
+section.features .section-heading {
+  margin-bottom: 100px;
+}
+section.features .section-heading h2 {
+  margin-top: 0;
+}
+section.features .section-heading p {
+  margin-bottom: 0;
+}
+section.features .device-container,
+section.features .feature-item {
+  max-width: 300px;
+  margin: 0 auto;
+}
+section.features .device-container {
+  margin-bottom: 100px;
+}
+@media (min-width: 992px) {
+  section.features .device-container {
+    margin-bottom: 0;
+  }
+}
+section.features .feature-item {
+  text-align: center;
+  margin-bottom: 100px;
+}
+section.features .feature-item h3 {
+  font-size: 30px;
+}
+section.features .feature-item i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #739DD2, #005198);
+  background: linear-gradient(to left, #739DD2, #005198);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  section.features .device-container,
+  section.features .feature-item {
+    max-width: none;
+  }
+}
+section.cta {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('../img/bg-cta.jpg');
+  padding: 250px 0;
+}
+section.cta .cta-content {
+  position: relative;
+  z-index: 1;
+}
+section.cta .cta-content h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  max-width: 450px;
+  font-size: 50px;
+}
+@media (min-width: 768px) {
+  section.cta .cta-content h2 {
+    font-size: 80px;
+  }
+}
+section.cta .overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #739DD2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.contact {
+  text-align: center;
+}
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.contact h2 i {
+  color: #739DD2;
+}
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+section.contact ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #739DD2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #739DD2;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #739DD2;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #739DD2;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #739DD2;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #739DD2;
+}
+
+/* //////////////////////////////////////
+# Products
+ ///////////////////////////////////// */
+ 
+
+.product-resources{padding:50px 0;}
+.product-resources .section-title{text-transform:uppercase;text-align:center;}
+.res-icon a {
+    text-align: center;
+    padding: 20px 10px;
+   border: 1px solid #ddd;
+    display: block;
+    margin-bottom: 20px;
+    background-color: #fff;
+    height:120px;
+    width:130px;
+    overflow:hidden;
+    border-radius:10px;
+    }
+    
+.res-icon a:focus {
+    background-color: #e7f1fd;
+}
+
+.1px-content > .active {
+    background: #fff;
+    padding: 20px;
+    width: 96%;
+    border: 1px solid #d0ddef;
+}
+
+.tab-pane{
+    border: 1px solid #ddd;
+    padding:20px;
+    height:260px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    background:#e7f1fd;
+}
+
+
+/* //////////////////////////////////////
+# Footer
+ ///////////////////////////////////// */
+
+body>footer{background-color:#fff;color:#fff;}
+body>footer .foot-col{padding: 26px 0 43px;}
+.footer-address, .footer-social-media{padding:0;}
+.footer-address{padding-top:10px;}
+.footer-address ul{list-style: none inside none;padding: 20px;font-size: 17px;line-height: 1.6em;background: #f4faff;border-radius: 5px;}
+.footer-address ul li{font-weight: 300;}
+.footer-address ul i{padding-right:8px;color:#428bca;}
+.footer-address ul i.fa-mobile-phone{padding-left:3px;padding-right:12px;}
+.footer-address ul li.address-phone{font-weight:500;font-size:17px;color:#739dd2;}
+footer hr{border-top: 1px solid #e0e0e0;margin-top: 25px;
+    margin-bottom: 25px;}
+.btn-brivo-pri.btn-brivo-blue{background-color:#739dd3;border-bottom: 2px solid #5979a2;width:100%;max-width:300px;}
+.btn-brivo-pri.btn-brivo-blue:hover{border-bottom: 2px solid #739dd3;}
+.footer-social-media a:hover{opacity:0.8;}
+.i-fb{color:#4873a9;}
+.i-tw{color:#85cbdf;}
+.i-yt{color:#d03f3f;}
+.i-ln{color:#739dd3;}
+.i-rss{color:#F26524;}
+.footer-menu ul{list-style: none inside none;padding: 0;font-weight: 300;font-size:13px;line-height:1.9em;letter-spacing: 1px;}
+.footer-menu{padding-top:9px !important;}
+.footer-menu a{color:#333;}
+.footer-menu li.first a{color:#428bca;text-transform:uppercase;font-size:12px;font-weight:500;line-height:1em;}
+
+.footer-bar{background:#c8d5e6;}
+.copyright{display:inline-block;color:#fff;}
+.footer-bar nav{display:inline-block;}
+
+.bg-primary {
+  background: #739DD2;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+.text-primary {
+  color: black;
+}
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.btn-outline {
+  color: white;
+  border-color: white;
+  border: 1px solid;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  background-color: #726F74;
+  border-color: #726F74;
+}
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+}
+.btn-xl {
+  padding: 15px 45px;
+  font-size: 11px;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #726F74;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #726F74;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #726F74;
+}
+
+@media only screen and (max-width : 989px) {
+    .footer-menu{display:none;}
+}
+
+
+
+/*
+#additional styles (will clean them up later)
+*/
+
+
+.catdaddy1 img {
+  height:300px;
+  width:auto;
+}
+
+.catdaddy2 img {
+  height:100px;
+  width:auto;
+}
+
+/*!
+ * CSS written during Case Studies (Will combine this later)
+ */
+
+h4{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+    margin: 50px 0px 0px 0px;
+}
+
+@media only screen and (max-width : 990px) {
+    .brivo-widget2 {display:none;
+}
+}
+
+.brivo-widget {
+  background-color: #fff;
+  color: #739dd2;
+  width:150px;
+  margin-bottom: 20px;
+  font-size: 10px;
+
+}
+
+.brivo-widget h4 {
+  font-size:12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.brivo-meta-data{
+  margin-bottom: 0px;
+}
+
+.brivo-widget a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#666;
+  line-height: 27px;
+  font-size:15px;
+  font-weight: 100;
+}
+
+.brivo-thumbnail img{
+    height:95px;
+    width:115px;
+}
+
+.brivo-thumbnail p{
+    font-size:14px;
+}
+
+@media only screen and (max-width : 1190px) {
+    .brivo-thumbnail img{
+        height:115px;
+         width:115px;
+}}
+
+@media only screen and (max-width : 640px) {
+    .brivo-thumbnail img{display:none;
+}
+}
+.lead p{
+    font-size:18px;
+}
+
+.lead h1{
+    font-size:30px;
+    font-weight:500;
+
+}
+
+.brivo-subhead h4 {
+  text-align: center;
+  color:#739dd2;
+  font-size:14px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 500;
+
+}
+
+.brivo-head h1{
+  font-size:25px;
+  font-weight:800;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.brivo-head h2{
+  font-size:18px;
+  font-weight:600;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 7px;
+  padding-bottom:20px;
+}
+
+.brivo-singlepg-head h1{
+    font-weight: 500;
+    color: #fff;
+    font-size:28px;
+    background-color:#739dd2;
+    padding:20px 15px 30px 30px;
+    margin:0px;
+}
+
+.brivo-nav-head {
+  color:#739dd2;
+  font-weight:200;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .brivo-widget {
+        width:auto;
+    }
+}
+
+.brivo-main-image img{
+    width:100%;
+    height:auto;
+}
+
+.author {
+    font-size: 15px;
+}
+.time {
+  font-size: 12px;
+}
+
+/* Button styles: */
+i.fb,       span.fb{         color: #3b5998; }
+i.tw,       span.tw{     	color: #00aced; }
+i.google,   span.google{ 	color: #dd4b39; }
+i.linkin,   span.linkin{ 	color: #007bb6; }
+i.pinterest,span.pinterest{ color: #cb2027; }
+
+
+@media screen and (min-width: 1200px) {
+    .brivo-container {
+        width:1000px;
+    }
+}
+
+
+.onair-text-box{
+  height:300px;
+  width:100%;
+}
+
+.onair-box{
+  background-color:#739dd2;
+  height:300px;
+  width:100%;
+}
+
+
+.brivo-product-box1{
+  background-color:#739dd2;
+  height:200px;
+  width:100%;
+  color:white;
+  background-image: url("/wp-content/uploads/2016/11/Productoverview1.jpg");
+  background-size: cover;
+}
+.brivo-product-box2{
+  background-color:#739dd2;
+  height:200px;
+  width:100%;
+  color:white;
+  background-image: url("/wp-content/uploads/2016/11/Productoverview2.jpg");
+  background-size: cover;
+}
+.brivo-product-box3{
+  background-color:#739dd2;
+  height:200px;
+  width:100%;
+  color:white;
+  background-image: url("/wp-content/uploads/2016/11/Productoverview3.jpg");
+  background-size: cover;
+}
+
+.brivo-product-caption{
+  color:#666;
+  font-size: 18px;
+  font-weight: 200;
+  padding:10px 20px 10px 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.brivo-product-sidebar{
+  background-image: url(/wp-content/uploads/2016/11/productsidebar.jpg);
+  background-size: cover;
+  height:920px;
+  margin-bottom: 20px;
+  padding:20px;
+}
+
+.brivo-product-sidebar img{
+  height: 97px;
+    width: auto;
+}
+
+@media screen and (max-width: 990px) {
+    .brivo-product-sidebar {
+        height:450px;
+    }
+    .question{height:auto;}
+}
+
+.brivo-panel-body{
+  height:225px;
+  background-color: grey;
+  padding:0px;
+}
+.brivo-panel-body a,.brivo-panel-body-main a{
+  color:#fff;
+  display:block;height:100%;
+  text-decoration:none;
+}
+.brivo-panel-body-main{
+    font-size:33px;
+  height:325px;
+  background-color: grey;
+  padding:0px;
+}
+
+.brivo-panel-body-main h5{
+    color:#fff;
+    font-size:35px;
+    background-color: #739dd2;
+    font-weight:300;
+    margin:0px;
+    padding:0px 20px 20px 20px;
+}
+
+.brivo-panel-body h6{
+    color:#fff;
+    font-size:17px;
+    background-color: #739dd2;
+    font-weight:500;
+    margin:0px;
+    padding:10px;
+}
+
+.brivo-panel-label{
+  padding: 10px 15px;
+    border-bottom: 0px transparent;
+    border-radius: 0px;
+  background-color: #739dd2;
+}
+.brivo-panel-label a{
+  text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #fff;
+    font-size:12px;
+}
+.brivo-panel-footer{
+  padding: 10px 15px;
+    background-color: #739dd2;
+    border-radius: 0px;
+    color:#fff;
+    font-size:10px;
+}
+
+.brivo-panel-footer a{
+    color:#fff;
+}
+
+.form-control{
+  height:22px;
+}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: -1px;
+    width: 50%;
+    height: 22px;
+}
+
+.btn-default {
+    color: #739dd2;
+    background-color: #fff;
+    border-radius: 1px;
+    border: 1px solid #d0ddef;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.jumbotron {
+  background-image: url("/wp-content/uploads/2017/01/heronew4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff;
+  text-shadow: 0px 0px 5px #222;
+  margin-top: -7px;
+}
+
+.brivo-button{
+   border-radius: 5px;
+   background-color: #005198;
+   color:#fbfbfb;
+   border-color: #ddd;
+   transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s;
+   /* Kyle old box-shadow: 0px 2px 1px rgba(27, 39, 53, 0.3);*/
+   box-shadow: 0px 1px 2px rgba(27, 39, 53, 0.3);
+   padding: 10px 30px;
+}
+
+.brivo-button2{
+    background-color: #7ac143;
+    font-size:22px; 
+    font-weight:500;
+    letter-spacing: 0px; 
+    text-transform:none;
+    border:none;
+    padding:15px 25px;
+}    
+
+.brivo-button3{
+    background-color: #7ac143;
+    font-size:22px; 
+    font-weight:500;
+    letter-spacing: 0px; 
+    text-transform:none;
+    border:none;
+    padding:15px 25px;
+    margin:20px;
+}
+
+.brivo-button active:button {
+  background-color: lightblue;
+}
+
+.product-img img{
+  width:100%;
+  height:auto;
+}
+
+.brivo-hero h1{
+  font-size:33px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.brivo-hero p{
+  font-size: 15px;
+}
+
+.search-header h5{
+    text-align:center;
+    padding:20px;
+    font-size:20px;
+    color:#646d7b;
+    font-weight:300;
+
+}

@@ -1,0 +1,144 @@
+.clear{clear:both;}
+
+.select option{background:#739dd2;color:#fff;}
+.select:focus{background:#739dd2;color:#fff;}
+
+.case-study-1, .blog-1{display:none !important;}
+.page-template-template-brivoblog .row#more{margin-left:0;margin-right:0;}
+
+/*Careers*/
+.careers-block .inner{border:1px solid #ccc;padding:0;margin-top:30px;border-radius:2px;}
+.careers-block h5{padding:10px;background:#739dd2;color:#fff;text-transform:uppercase;margin:0 0 10px;}
+.careers-block ul{margin-bottom:0;}
+.careers-block ul li{display:block;padding:10px;}
+.careers-block ul li:nth-child(even){background:#eee;}
+
+/*FAQs*/
+#faq{padding-top:20px;}
+.page-template-template-faq .brivo-head h1{text-transform:none;}
+.faq-search .faq-input{-webkit-appearance:none;-moz-appearance:none;appearance:none;margin-bottom:40px;font-size:11pt;padding:15px 40px 15px 10px;border:0;border-bottom:#739dd2 2px solid;
+background:transparent url(../img/b-search.png) right center no-repeat;background-size:46px 50px;}
+.faq-search .faq-input:focus{outline:none;border-color:#000;}
+.question > a{color:#000;display:block;font-size:10pt;border-bottom:2px solid #ccc;padding:10px 50px 10px 0;font-weight:bold;
+background:transparent url(../img/b-arrow-r.png) right center no-repeat;background-size:30px 29px;}
+.question > a:focus{outline:none;color:#000;}
+.question > a:hover{border-color:#739dd2;}
+.question .modal-body a{color:#739dd2;font-weight:bold;}
+.question button.close{top:0;right:0;color:#739dd2;opacity:1;}
+
+.modal-content{background:rgba(30,30,30,0.9);}
+
+/*Card Calculator*/
+#calculate{border:1px solid #bbb;margin:40px 0;border-radius:8px;}
+.card-calculator{padding:40px;position:relative;}
+.c-divide{position:absolute;width:1px;background:#eee;left:50%;top: 40px;bottom: 40px;}
+.card-calculator h3{margin-top:0;margin-bottom:30px;font-size:15pt;font-weight:bold;}
+.card-calculator label{font-size:12pt;font-weight:normal;}
+.card-calculator select{border:1px solid #bbb;width:100%;border-radius:6px;margin-bottom:30px;padding:15px 10px;}
+.card-calculator-left{width:45%;float:left;margin-right:5%;}
+.card-calculator-right{width:45%;float:left;margin-left:5%;}
+.card-calculator-left input{border:1px solid #bbb;border-radius:6px;margin-bottom:30px;padding:15px 10px;}
+.calc-results{display:block;border:1px solid #bbb;border-radius:6px;margin-bottom:30px;padding:14px 10px;}
+#bitPattern{word-break: break-all;}
+
+@media screen and (max-width: 768px){
+  .c-divide{
+  display:none;}
+  .card-calculator{padding:20px}
+  }
+
+.actions{margin-bottom:60px;}
+.actions-left{text-align:right;}
+.actions-right{text-align:left;}
+.b-button{font-weight:bold;display:inline-block;padding:8px 30px;font-size:12pt;border:1px solid #bbb;border-radius:8px;}
+#resetButton{color:#000;}
+
+@media screen and (max-width:760px){
+    .card-calculator-left,.card-calculator-right{width:100%;float:none;margin-left:0;margin-right:0;}
+}
+
+/* Integrations */
+
+
+.integrations{border:1px solid #bbb;padding:40px;margin-bottom:20px;margin-top:40px;}
+.integrations .section-title{margin-top:0;margin-bottom:30px;font-size:15pt;font-weight:bold;}
+.integrations .col-md-8 .section-title{color:#739dd2;}
+.integrations label{font-size:12pt;font-weight:normal;}
+.integrations select,.integrations input{position:relative;-webkit-appearance:none;-moz-appearance: none;border-color:#bbb;background:#fff;font-size:12pt;}
+.integrations select{padding:15px 40px 15px 10px;
+  background:url(../img/b-select.png) right center no-repeat;background-size:46px 50px;}
+.integrations select::-ms-expand{display: none;}
+.integrations select:focus{border-color:#739dd2;outline:none;}
+.integrations input{font-size:11pt;padding:15px 40px 15px 10px;background:url(../img/b-search.png) right center no-repeat;background-size:46px 50px;}
+.integrations .search-header{font-weight:bold;}
+.integrations input:focus{outline:none;border-color:#739dd2;}
+
+.integrations-content{padding:40px 0;}
+.integrations-content h4{font-size:16pt;font-weight:bold;margin-bottom:40px;}
+.integrations-content h5{text-align:left !important;font-size:9.5pt;font-weight:600;margin-bottom:10px;color:#739dd2;text-transform: uppercase;    letter-spacing: 3px;}
+.integrations-content .row{margin-bottom:60px;}
+.integrations-content .row.intro{margin-bottom:40px;}
+.integrations-content .row:last-child{margin-bottom:0;}
+.integrations-content img{max-width:100%;height:auto;max-height:295px;margin-bottom:1px;border-radius: 15px;}
+
+.int-intro{color:#fff;background:#739dd2;padding:50px 0 40px;margin:40px 0 10px;}
+.int-intro a{color:#fff;text-decoration:underline;}
+.int-intro h2{font-weight:bold;font-size:24pt;margin:0 0 10px;}
+.int-link{text-align:center;}
+.int-link a.more{display:block;text-decoration:underline;padding-bottom:10px;border-bottom:1px solid #739dd2;font-weight:200;}
+.int-row a.more{display:block;color:#f26524;font-weight:300;font-size:14pt;padding:10px;margin: 10px 0px;text-align:left;}
+.int-row a.more:hover{opacity:0.75;text-decoration:none;}
+.int-logo{max-height: 100px !important;width: auto;}
+.int-row .col-md-4{
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fbfbfb;
+    margin: 15px;
+    width: 30%;
+    }
+.popover{max-width:300px;}
+.popover-content{width:300px;}
+.popover-content td{padding-right:15px;white-space:normal;vertical-align: top;}
+.popover-content table tr:nth-child(even){color:#739dd2;}
+.popover-content thead{color:#739dd2;}
+
+.int-row .modal-content{color:#333;background:#fff;border-color:#ddd;border-radius:0;}
+.int-row .modal-content .bio-img img{border:1px solid #ddd;padding:10px;background:#fff;}
+.int-row button.close{color:#333;top:-10px;right:-5px;}
+.int-row .bio-text{padding-top:0;}
+.int-row .bio-text{margin-top:0;}
+.int-header{text-align:center;}
+.int-header h3{text-transform:uppercase;letter-spacing:2px;font-size:14pt;font-weight:bold;}
+.integrations .results-content a{font-size:10pt;}
+
+.brand{color:#005198;font-weight:bold;}
+.popover.right > .arrow{left:-10px;}
+
+@media (min-width: 768px){
+    .int-row .modal-dialog{width:750px;}
+    }
+@media (max-width: 768px){
+    .int-row .col-md-4{width:inherit;}
+}
+
+
+/* Careers */
+
+.careers-content h4{margin-top:0;font-weight:bold;color:#739dd2;}
+.job-row{margin-right:0 !important;margin-left:0 !important;border-bottom:2px solid #ccc;padding:40px 0;}
+.job-row:last-child{border-bottom:0;}
+.job-dept{font-size:9pt;font-weight:100;text-transform:uppercase;}
+.job-title h3{font-size:14pt;color:#333;font-weight:bold;margin:10px 0 0;}
+.job-title:hover{text-decoration:none;}
+.job-meta{font-size:11pt;font-weight:400;margin-bottom:15px;display:block;color:#739dd2;}
+.job-button{display:block;font-size:10pt;float:right;text-transform:uppercase;margin-top:15px;background:#739dd2;color:#fff;padding:10px 40px;border-radius:2px;}
+/*above Kyle added border-radius:2px;*/
+.job-button:hover{color:#fff;text-decoration:none;opacity:0.7;}
+
+.careers-listing{position:relative;}
+.careers-filter label{font-size:10pt;font-weight:200;padding:12px 5px 8px 5px;display:inline-block;}
+.careers-filter select{-webkit-appearance:none;appearance:none;border:0;border-bottom:2px solid #ccc;padding:10px 5px;font-size:10pt;background:url(../img/b-select-sm.png) right center no-repeat;}
+.careers-filter select:focus{outline:none;}
+
+.search-none{text-align:center;font-size:10pt;margin: 50px 0;}
