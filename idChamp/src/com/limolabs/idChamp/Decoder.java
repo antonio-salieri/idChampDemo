@@ -4,8 +4,8 @@ package com.limolabs.idChamp;
  * Created by lazar on 1/6/16.
  */
 public class Decoder {
-    final static long HID_CORP_1000_BITS = 35L;
-    final static long HID_CORP_1000_CARD_ID_MASK = 0x1ffffe;
+    final static long HID_CORP_1000_BITS = 26L;
+    final static long HID_CORP_1000_CARD_ID_MASK = 0x007ffe00;
 
     /**
      * Decodes raw number fetched form the reader into card
@@ -25,7 +25,7 @@ public class Decoder {
         long mask = ~(1L << (HID_CORP_1000_BITS + 1L));
         long bit_pattern = combined & mask;
 
-        card_id = (int) ((bit_pattern & HID_CORP_1000_CARD_ID_MASK) >> 1);
+        card_id = (int) ((bit_pattern & HID_CORP_1000_CARD_ID_MASK) >> 8);
         facility_id = (int) (bit_pattern & 0x1FFE00000L) >> 21;
 
         return new Card(card_id, facility_id);
